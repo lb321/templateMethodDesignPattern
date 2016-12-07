@@ -8,7 +8,7 @@ public abstract class Pizza {
 	
 	
 	//template method
-	public void maakPizza(){
+	public final void maakPizza(){
 		maakBodem();
 		if(klantWiltVlees()){
 			voegVleesToe();

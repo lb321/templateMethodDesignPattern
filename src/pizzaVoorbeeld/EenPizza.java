@@ -31,7 +31,7 @@ public class EenPizza extends Pizza{
 	public void voegGroenteToe() {
 		System.out.print("Groenten toevoegen: ");
 		for(String groente : groenten){
-			System.out.print(groente);
+			System.out.print(groente + " ");
 		}
 	}
 
